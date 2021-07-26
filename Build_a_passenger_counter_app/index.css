@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
   
 }
 
@@ -45,6 +46,8 @@ body{
     padding: 20px 0 20px 0;
     border-radius: 10px;
     font-size: 25px;
+    color: black;
+    opacity: 0.5;
 }
 
 #save-btn{
@@ -54,7 +57,14 @@ body{
     border-radius: 10px;
     padding: 20px 0 20px 0;
     font-size: 25px;
+    color: black;
+    opacity: 0.5;
 }
 
 
 
+#save-el{
+    font-size: 20px;
+    padding-left: 400px;
+    padding-top: 20px;
+}
